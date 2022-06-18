@@ -486,7 +486,7 @@ ul {
   height: 100%;
   justify-content: center;
   align-items: center;
-  transition-property: border, fill;
+  transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -509,6 +509,9 @@ ul {
 
 .clients-icon {
   fill: var(--button-no-active-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover .clients-icon,
@@ -540,6 +543,9 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--hero-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact {
@@ -578,6 +584,9 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------FOOTER JOIN-----------*/
@@ -616,6 +625,9 @@ ul {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-link:hover,
@@ -625,6 +637,9 @@ ul {
 
 .join-ico {
   fill: var(--additional-text-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer > .container {
@@ -722,6 +737,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--header-color);
   border-color: transparent;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons-button:not(:last-child) {
