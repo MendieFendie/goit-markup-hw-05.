@@ -30,7 +30,7 @@ ul {
   padding-left: 0;
 }
 
-.body {
+body {
   font-family: roboto, sans-serif;
   color: #212121;
 }
@@ -173,7 +173,7 @@ ul {
 .contacts .link {
   display: flex;
   align-items: center;
-  color: var(--secondary-text-color);
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -457,6 +457,7 @@ ul {
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
   color: var(--text-color);
 }
 
